@@ -1,7 +1,7 @@
 ### 带箭头的指引tipLayout实现
 
 ### 实现效果如下
-![demo](./image/android-layout.gif)
+![image1.gif](http://upload-images.jianshu.io/upload_images/2651056-1ac7a748ccfda447.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ### 配置
 ```

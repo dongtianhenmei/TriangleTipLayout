@@ -1,4 +1,5 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
 
 android {
     compileSdkVersion 26
@@ -31,4 +32,22 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+}
+
+
+//项目主页
+def siteUrl = 'https://xwdz.github.io./2018/01/22/Android-%E5%B8%A6%E7%AE%AD%E5%A4%B4%E7%9A%84%E6%8C%87%E5%BC%95tipLayout%E5%AE%9E%E7%8E%B0%E3%80%82/'
+publish {
+    userOrg = 'quinnhuang'//bintray.com的用户名
+    repoName = 'xw-widget'//远程仓库名字,不指明，默认是上传到maven
+    groupId = 'com.xiaowei'//jcenter上的路径
+    artifactId = 'TriangleTipLayout'//项目名称
+    publishVersion = '1.0.0'//版本号
+    desc = '轻量型柱形图'//描述，不重要
+    website = siteUrl//项目主页
+}
+tasks.withType(Javadoc) {//防止编码问题
+    options.addStringOption('Xdoclint:none', '-quiet')
+    options.addStringOption('encoding', 'UTF-8')
+    options.addStringOption('charSet', 'UTF-8')
 }

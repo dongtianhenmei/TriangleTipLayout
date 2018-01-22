@@ -1,10 +1,3 @@
----
-title: Android 带箭头的指引TipLayout实现。
-date: 2018-01-22 15:24:48
-tags:
-    - Android
----
-
 ![image.png](http://upload-images.jianshu.io/upload_images/2651056-91d1f5bdad61f17c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 如上是从UI接过来的设计图，要求三角形指示器需要动态对齐上面的文本，需要动态的实现对其三角形。

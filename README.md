@@ -1,9 +1,18 @@
-![image.png](http://upload-images.jianshu.io/upload_images/2651056-91d1f5bdad61f17c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-如上是从UI接过来的设计图，要求三角形指示器需要动态对齐上面的文本，需要动态的实现对其三角形。
+
+![image1.png](http://upload-images.jianshu.io/upload_images/2651056-ad5b11e1c00070a0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![image2.png](http://upload-images.jianshu.io/upload_images/2651056-91d1f5bdad61f17c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
+如上设计图，要求三角形指示器需要动态对齐上面的文本，需要动态的实现对其三角形。
 
 ### 引用方式
-> compile 'com.xiaowei:TriangleTipLayout:1.0.0'
+```
+compile 'com.xiaowei:TriangleTipLayout:1.0.0'
+//or
+implementation ‘com.xiaowei:TriangleTipLayout:1.0.0’
+```
 
 ### 实现思路
 准备一个三角形指引的图片即可。
@@ -41,7 +50,7 @@ final TextPaint textPaint = mTextView.getPaint();
 
 ```
 
-**核心代码如上,其思路是先绘制一个矩形，预留出三角形所需要的高度，最后将其三行图片绘制出来。**
+**核心代码如上,其思路是先绘制一个矩形，预留出三角形指示器图片所需要的高度，最后将其三行图片绘制出来。**
 
 
 ### 配置指示器
@@ -61,8 +70,9 @@ final TextPaint textPaint = mTextView.getPaint();
 
 
 ### Feature
-> // todo
+> todo
 
+### About
 > **GitHub**:[Github/xwdz/TriangleTipLayout](https://github.com/xwdz/TriangleTipLayout)
 
 

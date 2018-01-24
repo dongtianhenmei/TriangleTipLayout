@@ -14,9 +14,9 @@ tags:
 
 ### 引用方式
 ```
-compile 'com.xiaowei:TriangleTipLayout:1.0.0'
+compile 'com.xiaowei:TriangleTipLayout:1.0.1'
 //or
-implementation 'com.xiaowei:TriangleTipLayout:1.0.0'
+implementation 'com.xiaowei:TriangleTipLayout:1.0.1'
 ```
 
 ### 实现思路

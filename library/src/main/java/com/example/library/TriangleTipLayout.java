@@ -13,7 +13,6 @@ import android.util.AttributeSet;
 import android.view.Gravity;
 import android.view.View;
 import android.view.ViewParent;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -79,17 +78,16 @@ public class TriangleTipLayout extends LinearLayout {
                 LayoutParams layoutParams = (LayoutParams) mTarget.getLayoutParams();
                 left = mTarget.getLeft() - layoutParams.rightMargin - layoutParams.leftMargin;
             } else {
+                final float width = mTarget.getWidth();
                 if (mTarget instanceof TextView) {
                     ViewParent viewParent = mTarget.getParent();
                     float textWidth = textPaint.measureText(text);
                     if (viewParent instanceof LinearLayout) {
-                        final float width = mTarget.getWidth() / 2;
-                        left = mTarget.getLeft() + width - (mBitmap.getWidth() / 2);
+                        left = mTarget.getLeft() + width / 2 - (mBitmap.getWidth() / 2);
                     } else if (viewParent instanceof RelativeLayout) {
                         left = mTarget.getLeft() + textWidth / 2;
                     }
-                } else if (mTarget instanceof ImageView) {
-                    final float width = mTarget.getWidth();
+                } else {
                     left = mTarget.getLeft() + (width / 2) - (mBitmap.getWidth() / 2);
                 }
             }

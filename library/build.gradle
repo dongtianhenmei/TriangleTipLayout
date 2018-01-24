@@ -42,7 +42,7 @@ publish {
     repoName = 'xw-widget'//远程仓库名字,不指明，默认是上传到maven
     groupId = 'com.xiaowei'//jcenter上的路径
     artifactId = 'TriangleTipLayout'//项目名称
-    publishVersion = '1.0.0'//版本号
+    publishVersion = '1.0.1'//版本号
     desc = '轻量型柱形图'//描述，不重要
     website = siteUrl//项目主页
 }

@@ -1,10 +1,3 @@
----
-title: Android 带三角形箭头头的指引TipLayout实现
-date: 2018-01-22 15:24:48
-tags:
-    - Android
----
-
 ![image1.png](http://upload-images.jianshu.io/upload_images/2651056-ad5b11e1c00070a0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ![image2.png](http://upload-images.jianshu.io/upload_images/2651056-91d1f5bdad61f17c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)

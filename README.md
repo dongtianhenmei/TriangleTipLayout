@@ -75,7 +75,10 @@ final TextPaint textPaint = mTextView.getPaint();
 
 
 
-1123123123
+1123123123123123
+123123123
+1231231231
+asd123123123	
 
 
 
